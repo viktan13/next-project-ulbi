@@ -1,12 +1,12 @@
 import A from "./A";
 import Head from "next/head";
 
-const MainContainer = ({children, keywords}) => {
+const MainContainer = ({children, keywords, title}) => {
     return (
         <>
             <Head>
                 <meta keywords={"ulbi.tv, next.js" + keywords} />
-                <title>Main Page</title>
+                <title>{title}</title>
             </Head>
             <div className="navbar">
                 <A href={'/'} text={'Main'}/>

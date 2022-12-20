@@ -4,7 +4,7 @@ import MainContainer from "../components/MainContainer";
 const Users = ({users}) => {
 
     return (
-        <MainContainer keywords={"users next js"}>
+        <MainContainer keywords={"users next js"} title={"Users"}>
             <h1>Users List</h1>
             <ul>
                 {users.map(user => (
